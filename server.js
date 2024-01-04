@@ -33,7 +33,6 @@ app.use(express.urlencoded({ extended: false }));
 //   console.log(req.body)
 // })
 
-// app.use('/static', express.static(path.join(__dirname, '/')))
 
 // app.post('/in-app', async (req, res) => {
 

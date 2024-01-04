@@ -133,7 +133,7 @@
         // Convert to URL-encoded string:
         const urlEncoded = new URLSearchParams(fd).toString();
         
-        fetch('http://localhost:8080/deleteaccount', {
+        fetch('https://boiling-sea-56882-5ac3149e6a9e.herokuapp.com/deleteaccount', {
             method: "POST",
             body: urlEncoded, // just 'fd' for multipart/form-data
             headers: {
