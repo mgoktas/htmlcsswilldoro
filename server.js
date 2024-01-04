@@ -90,7 +90,7 @@ app.post('/deleteaccount', async function (req, res) {
     from: 'mgoktasmgoktas@gmail.com',
     to: 'ahmethkhkhk@gmail.com',
     subject: 'Account Deletion Request',
-    text: 'Please delete this accounts info from database.That was easy!, email' + email
+    text: 'Please delete this accounts info from database. That was easy!, email' + email
   };
   
   await transporter.sendMail(mailOptions, function(error, info){
