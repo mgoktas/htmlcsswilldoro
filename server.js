@@ -65,7 +65,7 @@ app.use(express.urlencoded({
 }));
 
 app.get('/', async (req,res) => {
-  res.sendFile(path.join(__dirname+'/willdoro.html'));
+  res.status(200).send('Hello World')
 })
 
 const nodemailer = require('nodemailer');
