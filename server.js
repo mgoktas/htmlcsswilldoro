@@ -81,7 +81,7 @@ app.post('/deleteaccount', async function (req, res) {
     secure: true,
     auth: {
       user: 'mgoktasmgoktas@gmail.com',
-      pass: 'vwaf atti uhgs acqd'
+      pass: 'YOUR_PASS'
     },
   });
   
